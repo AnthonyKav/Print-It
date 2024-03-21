@@ -125,6 +125,9 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+	background: none;
+    border: none;
+	/* Enleve le background et les borders  sur les chevrons */
 }
 #banner .arrow_left {
 	left: 10px;
