@@ -73,6 +73,7 @@ function updateCarousel(index, direction) {
 // Gestionnaire d'événement pour le clic sur la flèche gauche
 arrowLeft.addEventListener('click', function () {
     currentIndex = (currentIndex - 1);
+	//verifie si l'utilisateur est revenu a la première diapo
     updateCarousel(currentIndex, 'left');
     updateDots(currentIndex); // Met à jour les points indicateurs
 });
